@@ -1,0 +1,31 @@
+* Ticketing/Reservation App
+** What is my main goal for this project?
+ - Online
+ - Potentially a web interface?
+ - Server runs continously and supports multiple clients
+ - Potentially write server in C and write client frontend in java?
+** Basic Description
+ 1. =GUI for allowing customers to book flights/hotels/whatever=
+    + _Customers should be able to:_
+      1) Create an account with payment and contact information
+      2) Browse the available listings and search for specific listings
+      3) Make/Cancel a reservation
+      4) Submit a question/error report
+ 2. =GUI for employees of seperate companies to add listings for new openings=
+    + _Employees should be able to:_
+      1) Register their company to use the service
+      2) Make/Remove listings for available reservations
+      3) Access customer information and require admin privilages to access payment info
+ 3. =Shell based interface for server management and interaction=
+    + _The server should be able to:_
+      1) Store and organize customer information
+      2) Store and *organize* listings of reservations
+	 * /This includes making queries for possible reservations and marking whether a/
+	   /reservation is open or not/
+      3) Encrypt customer information when in storage and decrypt it for access by admin users>
+** Project Structure
+ =Will be developed further into the project=
+** Current Tasks List
+*** TODO Learn socket programming in C
+*** TODO Learn how to have C and Java interact
+*** TODO Put together a rough timeline on when I might complete the project
